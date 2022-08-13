@@ -7,7 +7,7 @@ body {
     overflow: clip;
     border: none;
     align-items: center;
-    display: bock;
+    display: block;
 }
 @media (max-width: 375px) {
     body {
@@ -34,8 +34,8 @@ body {
        flex-direction: column-reverse;
        flex-wrap: wrap;
        margin: 20px 10px 20px 10px;
-       height: 800px;
-       width: 330px;
+       height: 700px;
+       width: 300px;
        
      }
 }
@@ -59,7 +59,7 @@ body {
         flex-direction: column;
         align-items: center;
         height: 500px;
-        width: 330px;
+        width: 300px;
         margin: 0;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 10px;
@@ -80,7 +80,7 @@ body {
     .wrap {
         text-align: center;
         border: none;
-        width: 300px;
+        width: 280px;
         height: 300px;
         margin-top: 10px;
         margin-left:0px; 
@@ -130,7 +130,7 @@ h1 > #word {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 320px;
+        width: 280px;
         margin-left: 0px;
         justify-content: center;
     }
@@ -187,7 +187,7 @@ p {
 }
 
 .card_2 > .content > h2 {
-    color: hsla(0, 0%, 100%, 0.6);
+    color: hsl(0, 0%, 100%);
     font-weight: 700;
     font-family: 'Lexend Deca', sans-serif;
     margin: 0;
@@ -196,7 +196,7 @@ p {
 }
 @media (max-width: 375px) {
     .card_2 > .content > h2 {
-        color: hsla(0, 0%, 100%, 0.6);
+        color: hsl(0, 0%, 100%);
         text-align: center;
         font-weight: 400;
         font-family: 'Lexend Deca', sans-serif;
@@ -241,8 +241,8 @@ p {
 @media (max-width: 375px) {
     #img_card {
      
-        width: 330px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
         background-color: hsl(277, 60%, 29%);
         border: none;
         border-top-left-radius: 10px;
@@ -260,8 +260,8 @@ img {
 }
 @media (max-width: 375px) {
     img {
-        width: 330px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
         opacity: 0.4;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -269,8 +269,9 @@ img {
     }
 }
 
-.attribution {
+.attribution, a {
     text-decoration: none;
-    color: white;
-   
-}
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+ }
+
